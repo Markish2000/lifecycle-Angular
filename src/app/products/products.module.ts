@@ -10,7 +10,7 @@ import { ProductComponent } from './pages/product/product.component';
 import { ProductsRoutingModule } from './products-routing.module';
 
 @NgModule({
-  declarations: [PriceComponent, ProductComponent],
+  declarations: [ProductComponent, PriceComponent],
   imports: [CommonModule, ProductsRoutingModule],
 })
 export class ProductsModule {}
